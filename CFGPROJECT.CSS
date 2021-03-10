@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background: #222;
+    font-family: 'Work Sans';
+    font-weight: 300;
+}
+
+
+h1 {text-align: center;}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: 556aa;
+}
+
+header: after {
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
