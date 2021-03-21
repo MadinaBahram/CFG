@@ -17,12 +17,7 @@ body {
     padding-top: 50px;
     padding-bottom: 20px;
   }
-  /* what are you trying to do here? */
-  /* header: after {
-      content: '';
-      display: table;
-      clear: both;
-  } */
+ 
   .logo {
     float: left;
   }
@@ -52,10 +47,11 @@ body {
     top: 0;
     left: 0;
   }
-  .mainpic {
+  .background {
+    background-image: url(pictwo.png);
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     float; right;
-  }
+  } 
