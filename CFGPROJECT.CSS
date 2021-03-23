@@ -3,6 +3,7 @@ body {
     background: rgb(143, 143, 143);
     font-family: "Work Sans";
     font-weight: 300;
+    background-image: url(pictwo.png);
   }
   h1 {
     text-align: center;
@@ -47,11 +48,4 @@ body {
     top: 0;
     left: 0;
   }
-  .background {
-    background-image: url(pictwo.png);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    float; right;
-  } 
+  
