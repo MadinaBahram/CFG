@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women in Tech - Profiles</title>
+    <link rel="stylesheet" href="profiles.css">
+</head>
+
+<body>
+    <header>
+        <img src="../Screen Shot 2021-03-11 at 16.21.16.jfif" alt="logo" class="logo" height="150" width="150" />
+        <h1>Women in Tech</h1>
+        <div class="container">
+            <div class="topnav">
+                <a href="../Contact/Contact.html">Contact</a>
+                <a href="#top">Profiles</a>
+                <a href="../index.html">Home</a>
+            </div>
+        </div>
+    </header>
+    <div class="top">
+        <h2>Click through the photographs to find out about some inspirational women in technology or follow links for
+            more information</h2>
+    </div>
+    <div class="profiles-section">
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+            <!-- Ada Lovelace-->
+            <div class="column">
+                <div class="content">
+                    <img src="ada-lovelace-290.jpeg" alt="Ada Lovelace" style="width:100%">
+                    <button type="button" class="collapsible">Ada Lovelace</button>
+                    <div class="content-collapsible">
+                        <p>Ada Lovelace (1815-1852) was an English mathematician and writer. Ada Lovelace has been
+                            called the world's first computer programmer, because she wrote the world's first machine
+                            algorithm for an early computing machine that existed only on paper. Every second Tuesday in
+                            October is known as Ada Lovelace Day to celebrate the achievements of women in STEM careers
+                        </p>
+                        <p>Find out more about Ada Lovelace <a
+                                href="https://en.wikipedia.org/wiki/Ada_Lovelace">here</a></p>
+                        <script>
+                            var coll = document.getElementsByClassName("collapsible");
+                            var i;
+
+                            for (i = -1; i < coll.length; i++) {
+                                coll[i].addEventListener("click", function () {
+                                    this.classList.toggle("active");
+                                    var content = this.nextElementSibling;
+                                    if (content.style.display === "block") {
+                                        content.style.display = "none";
+                                    } else {
+                                        content.style.display = "block";
+                                    }
+                                });
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <!-- Katherin Johnson-->
+            <div class="column">
+                <div class="content">
+                    <img src="KatherineJohnson.jpg" alt="Katherine Johnson" style="width:100%">
+                    <button type="button" class="collapsible">Katherine Johnson</button>
+                    <div class="content-collapsible">
+                        <p>Katherine Johnson (1918-2020) was a physicist and mathematician, and one of the first three
+                            black
+                            students to attend West Virginia college, where she obtained a degree in Mathematics and
+                            French.
+                            She was known for her work with NASA, manually running equations used for NASA's machines.
+                            At
+                            age 97, she was awarded the Presidential Medal of Freedom, America’s highest civilian
+                            honour, by
+                            President Obama</p>
+                        <p>Read more about Katherine's work <a
+                                href="https://www.nasa.gov/content/katherine-johnson-biography">here</a>.</p>
+                        <script>
+                            var coll = document.getElementsByClassName("collapsible");
+                            var i;
+
+                            for (i = -1; i < coll.length; i++) {
+                                coll[i].addEventListener("click", function () {
+                                    this.classList.toggle("active");
+                                    var content = this.nextElementSibling;
+                                    if (content.style.display === "block") {
+                                        content.style.display = "none";
+                                    } else {
+                                        content.style.display = "block";
+                                    }
+                                });
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <!-- Sheryl Sandberg-->
+            <div class="column">
+                <div class="content">
+                    <img src="sheryl-sandberg.jpg" alt="Sheryl Sandberg" style="width:100%">
+                    <button type="button" class="collapsible">Sheryl Sandberg</button>
+                    <div class="content-collapsible" id="contentcollapsible">
+                        <p>Sheryl Sandberg is the Chief Operating Officer of Facebook. Sheryl graduated from Harvard
+                            College in 1991
+                            with a B.A in economics, where she also co-founded Women in Economics and Government.
+                            She became Facebook's COO in 2007 and led the company from a $56 million loss in 2008 to
+                            $18.5 billion in profits in 2019.
+                            In 2012, she was named in the Time 100, an annual list of the most influential people in the
+                            world.</p>
+                        <p>Read more about Shery Sandberg <a
+                                href="https://www.forbes.com/profile/sheryl-sandberg/?sh=25d6f82a58b6">here</a>.</p>
+                        <script language="javascript">
+                            function toggle(contentcollapsible) {
+                                var ele = document.getElementById(contentcollapsible);
+                                if (ele.style.display == "block") {
+                                    ele.style.display = "none";
+                                }
+                                else {
+                                    ele.style.display = "block";
+                                }
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <!--Grace Hopper-->
+            <div class="column">
+                <div class="content">
+                    <img src="gracehopper.jpg" alt="Grace Hopper" style="width:100%">
+                    <button type="button" class="collapsible">Grace Hopper</button>
+                    <div class="content-collapsible" id="contentcollapsible">
+                        <p>Grace Hopper (1906-1992) was a computer scientist and one of the first computer programmers
+                            to work on the Harvard Mark I.
+                            Her work led to the development of COBOL, an early programming language that is still used
+                            today.
+                            After retiring from the Naval Reserve, she was helped standardise the navy’s computer
+                            languages and at the age of 79,
+                            she was known as the oldest officer in the navy before she retired in 1986. She was awarded
+                            the Presidential Medal of Freedom in 2016 by Barack Obama.</p>
+                        <p>Find out more about Grace Hopper <a
+                                href="https://www.womenshistory.org/education-resources/biographies/grace-hopper">here</a>.
+                        </p>
+                        <script language="javascript">
+                            function toggle(contentcollapsible) {
+                                var ele = document.getElementById(contentcollapsible);
+                                if (ele.style.display == "block") {
+                                    ele.style.display = "none";
+                                }
+                                else {
+                                    ele.style.display = "block";
+                                }
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <!--Susan Wojcicki-->
+            <div class="column">
+                <div class="content">
+                    <img src="SusanWojcicki.jpg" alt="Susan Wojcicki" style="width:100%">
+                    <button type="button" class="collapsible">Susan Wojcicki</button>
+                    <div class="content-collapsible">
+                        <p>Susan Wojcicki is CEO of YouTube, which has 2 billion monthly users.
+                            She was hired in 1999 as Google employee number 16, and worked on everything from AdSense
+                            and Google Analytics to Google Books and Google Images.
+                            In 2006 she advocated for the $1.65 billion acquisition of YouTube; the site, which she has
+                            run since 2014, is now worth an estimated $90 billion.
+                        </p>
+                        <p>You can follow Susan on <a
+                                href="https://twitter.com/SusanWojcicki?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>
+                            for more updates.</p>
+                        <script>
+                            var coll = document.getElementsByClassName("collapsible");
+                            var i;
+
+                            for (i = -1; i < coll.length; i++) {
+                                coll[i].addEventListener("click", function () {
+                                    this.classList.toggle("active");
+                                    var content = this.nextElementSibling;
+                                    if (content.style.display === "block") {
+                                        content.style.display = "none";
+                                    } else {
+                                        content.style.display = "block";
+                                    }
+                                });
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <!--Ellen Pao-->
+            <div class="column">
+                <div class="content">
+                    <img src="EllenPao.jpg" alt="Ellen Pao" style="width:100%">
+                    <button type="button" class="collapsible">Ellen Pao</button>
+                    <div class="content-collapsible">
+                        <p>Ellen Kangru Pao is an American investor and former CEO of social media company Reddit.
+                            She co-founded Project Include – a nonprofit focused on improving diversity in the tech
+                            industry.
+                            She often speaks publicly on issues like sexism.
+                            Pao entered the public spotlight in 2012, when she filed a $16 million lawsuit against her
+                            former employer
+                            for gender discrimination. Although she lost the case, Pao started a much-needed
+                            conversations in the tech world and detailed her experience in her memoir, "Reset: My Fight
+                            for Inclusion and Lasting Change."
+                        </p>
+                        <p>For more updates on Ellen, follow her on <a
+                                href="https://twitter.com/ekp?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>
+                            .</p>
+                        <script>
+                            var coll = document.getElementsByClassName("collapsible");
+                            var i;
+
+                            for (i = 0; i < coll.length; i++) {
+                                coll[i].addEventListener("click", function () {
+                                    this.classList.toggle("active");
+                                    var content = this.nextElementSibling;
+                                    if (content.style.display === "block") {
+                                        content.style.display = "none";
+                                    } else {
+                                        content.style.display = "block";
+                                    }
+                                });
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

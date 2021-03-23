@@ -1,0 +1,159 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin-top:170px;
+    background:#ffddcf;
+    font-family: "Work Sans";
+    font-weight: 300;
+  }
+  header {
+    background: pink;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    position:fixed;
+    width:100%;
+    top:0;
+  }
+
+  h1 {
+    text-align: center;
+    margin-left: 10%;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .logo {
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .topnav {
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: right;
+      color: #080808;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: transparent;
+      color: transparent;
+    }
+
+  .top {
+      color:#444;
+      font-weight: light;
+      font-size: 16px;
+      text-align: center;
+  }
+
+  .profiles-section {
+      padding-left: 25px;
+      padding-right: 20px;
+      background-color:#ffddcf;
+
+  }
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: 
+    #9abdb4;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+
+  /* Responsive layout - makes a two column-layout instead of three columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  /*collapsible content */
+  /* Style the button */
+.collapsible {
+    background-color: #ffedd7;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  /* collapsible button on hover */
+   .active, .collapsible:hover {
+    background-color: pink;
+    font-weight: bold;
+  }
+  
+  /* Note: hidden by default */
+  .content-collapsible {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #ffedd7;
+  }
+
+  .collapsible:after {
+    content: '\02795';
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796";
+  }

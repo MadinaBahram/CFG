@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background: #222;
+    font-family: 'Work Sans';
+    font-weight: 300;
+}
+h1 {text-align: center;
+    margin-left: 10%;
+} 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background: pink;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+/* what are you trying to do here? */
+header: after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo {
+    float: left;
+}
+
+.topnav {
+    background-color:transparent;
+    overflow: hidden;
+    float: top;
+    float: right;
+    display: inline;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #080808;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:transparent;
+    color:transparent;
+  }
+  
+ 
+
+        
+        
+
+
+
+
+
+img {
+    margin-left: 0%;
+    margin-top: 0.1%;
+    padding-top: 0.1%;
+    float: top;
+}
