@@ -1,39 +1,34 @@
 body {
     margin: 0;
-    background: #222;
-    font-family: 'Work Sans';
+    background: rgb(143, 143, 143);
+    font-family: "Work Sans";
     font-weight: 300;
-}
-h1 {text-align: center;
+    background-image: url(pictwo.png);
+  }
+  h1 {
+    text-align: center;
     margin-left: 10%;
-} 
-.container {
+  }
+  .container {
     width: 80%;
     margin: 0 auto;
-}
-header {
+  }
+  header {
     background: pink;
     padding-top: 50px;
     padding-bottom: 20px;
-}
-/* what are you trying to do here? */
-header: after {
-    content: '';
-    display: table;
-    clear: both;
-}
-.logo {
-    float: left;
-}
-
-.topnav {
-    background-color:transparent;
-    overflow: hidden;
-    float: top;
-    float: right;
-    display: inline;
   }
-  
+ 
+  .logo {
+    float: left;
+  }
+  .topnav {
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
   /* Style the links inside the navigation bar */
   .topnav a {
     float: right;
@@ -43,25 +38,14 @@ header: after {
     text-decoration: none;
     font-size: 17px;
   }
-  
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color:transparent;
-    color:transparent;
+    background-color: transparent;
+    color: transparent;
+  }
+  img {
+    position: fixed;
+    top: 0;
+    left: 0;
   }
   
- 
-
-        
-        
-
-
-
-
-
-img {
-    margin-left: 0%;
-    margin-top: 0.1%;
-    padding-top: 0.1%;
-    float: top;
-}
